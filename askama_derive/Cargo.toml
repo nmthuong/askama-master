@@ -1,0 +1,17 @@
+[package]
+name = "askama_derive"
+version = "0.3.2"
+authors = ["Dirkjan Ochtman <dirkjan@ochtman.nl>"]
+description = "Procedural macro package for Askama"
+homepage = "https://github.com/djc/askama"
+repository = "https://github.com/djc/askama"
+license = "MIT/Apache-2.0"
+workspace = ".."
+
+[lib]
+proc-macro = true
+
+[dependencies]
+nom = "3"
+syn = "0.11"
+quote = "0.3"
